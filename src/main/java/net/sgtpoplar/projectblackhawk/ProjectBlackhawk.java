@@ -54,7 +54,8 @@ public class ProjectBlackhawk {
             event.accept(ModItems.RAW_TITANIUM);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-    event.accept(ModBlocks.TITANIUM_BLOCK);
+            event.accept(ModBlocks.TITANIUM_BLOCK);
+            event.accept(ModBlocks.TITANIUM_ORE);
         }
     }
 
